@@ -5,7 +5,7 @@ void main() {
 // Example:
 // Input: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
 // Output: 2 4 6 8 10
-
+// 
   List<int> Numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
   print("Numbers:$Numbers");
   print("Output:");

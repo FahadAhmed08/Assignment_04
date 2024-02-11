@@ -2,9 +2,9 @@ import 'dart:io';
 
 void main() {
   // Question no 12:
-//   Write a program to display a pattern like a right angle triangle with a
+  // Write a program to display a pattern like a right angle triangle with a
 // number using loop.
-// The pattern like :
+// The pattern like ::
 // 1
 // 12
 // 123
