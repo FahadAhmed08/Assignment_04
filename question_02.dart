@@ -5,10 +5,10 @@ void main() {
 // Example:
 // Input: 10
 // Output: 0 1 1 2 3 5 8
-  int number = 10;
+  int number = 5;
   int first = 0;
-  int second = 1;
-  for (int i = 2; i < number; i++) {
+  int second = 1  ;
+  for (int i = first; i < number; i++) {
     int result = first + second;
     print("$result");
     first = second;

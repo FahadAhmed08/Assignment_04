@@ -1,3 +1,4 @@
+import 'dart:io';
 
 void main() {
   // Question no 04:
@@ -6,15 +7,15 @@ void main() {
 // Example::
 // Input: 5
 // Output: Factorial of 5 is 120
-  
-  int number = 5;
+  print("Input");
+  int number = int.parse(stdin.readLineSync()!);
 
-  
   int factorial = 1;
 
   for (int i = 1; i <= number; i++) {
     factorial *= i;
+    // factorial = factorial*i;
   }
-
+  print("Output");
   print('Factorial of $number is $factorial');
 }
